@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Dark Forest</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/tone"></script>
+  <script src="script.js" defer></script>
+  <script src="UIControls.js" defer></script>
+  <script src="ToneSetup.js" defer></script>
+  <audio id="backgroundMusic" loop>
+    <source src="atmostphere.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="SoundEffect" preload="auto">
+    <source src="noise.mp3" type="audio/mpeg">
+  </audio>
+</head>
+
+
+<body>
+  <dialog id="introDialog">
+    <h1>Welcome to <br>The Dark Forest!</h1>
+    <p>Please set your volume to a comfortable level before entering.<br><br>
+        You are about to enter a dark forest where creatures watch from the shadows...
+    </p>
+    <button id="dialogCloseButton" autofocus>Enter</button>
+  </dialog>
+
+  <div class="container">
+    <button id="mousedrag"></button>
+    <div class="eye big-eye" id="bigEye">
+      <div class="pupil" id="bigPupil"></div>
+    </div>
+ 
+    <div class="eye small-eye1" style="left: 100px; top: 770px;">
+      <div class="pupil"></div>
+    </div>
+
+    <div class="eye small-eye1" style="left: 190px; top: 200px;">
+      <div class="pupil"></div>
+    </div>
+
+    <div class="eye small-eye1" style="top: 10px; right: 100px;">
+        <div class="pupil"></div>
+    </div>
+    
+    <div class="eye small-eye2" style="top: 30px; left: 150px;">
+        <div class="pupil"></div>
+    </div>
+    
+    <div class="eye small-eye2" style="top: 200px; right: 150px;">
+        <div class="pupil"></div>
+    </div>
+    
+    <div class="eye small-eye2" style="top: 200px; right: 150px;">
+        <div class="pupil"></div>
+    </div>
+    
+    <div class="eye small-eye2" style="bottom: 100px; left: 100px;">
+        <div class="pupil"></div>
+    </div>
+
+    <div class="eye small-eye2" style="bottom: 200px; left: 50px;">
+        <div class="pupil"></div>
+    </div>
+
+    <div class="eye small-eye2" style="top: 100px; left: 300px;">
+        <div class="pupil"></div>
+    </div>
+
+    <div class="eye small-eye2" style="top: 400px; right: 200px;">
+        <div class="pupil"></div>
+    </div>
+
+    <div class="eye small-eye2" style="bottom: 150px; right: 100px;">
+        <div class="pupil"></div>
+    </div>
+
+    <div class="eye small-eye2" style="top: 300px; left: 100px;">
+        <div class="pupil"></div>
+    </div>
+
+    <div class="eye small-eye2" style="top: 150px; right: 50px;">
+        <div class="pupil"></div>
+    </div>
+
+    <div class="eye small-eye2" style="top: 100px; left: 100px;">
+        <div class="pupil"></div>
+    </div>
+
+    <div class="eye small-eye2" style="top: 200px; left: 50px;">
+        <div class="pupil"></div>
+    </div>
+
+    <div class="eye small-eye2" style="top: 200px; left: 350px;">
+        <div class="pupil"></div>
+    </div>
+
+    <div class="eye small-eye2" style="top: 190px; right: 280px;">
+        <div class="pupil"></div>
+    </div>
+
+    <div class="eye small-eye2" style="top: 20px; left: 590px;">
+        <div class="pupil"></div>
+    </div>
+
+    <div class="eye small-eye2" style="top: 90px; right: 280px;">
+        <div class="pupil"></div>
+    </div>
+
+    <div class="eye small-eye2" style="bottom: 20px; left: 800px;">
+        <div class="pupil"></div>
+    </div>
+
+    <div class="eye small-eye2" style="bottom: 50px; right: 280px;">
+        <div class="pupil"></div>
+    </div>
+
+    <div class="eye small-eye2" style="top: 390px; left: 450px;">
+        <div class="pupil"></div>
+    </div>
+
+    <div class="eye small-eye2" style="top: 470px; right: 480px;">
+        <div class="pupil"></div>
+    </div>
+
+    <div class="eye small-eye3" style="bottom: 70px; left: 500px;">
+        <div class="pupil"></div>
+    </div>
+
+    <div class="eye small-eye3" style="bottom: 110px; right: 380px;">
+        <div class="pupil"></div>
+    </div> 
+
+    <div class="eye small-eye3" style="bottom: 200px; left: 280px;">
+        <div class="pupil"></div>
+    </div>
+
+    <div class="eye small-eye3" style="top: 310px; right: 30px;">
+        <div class="pupil"></div>
+    </div> 
+
+    <div class="eye small-eye3" style="top: 250px; left: 520px;">
+        <div class="pupil"></div>
+    </div>
+
+    <div class="eye small-eye3" style="top: 110px; right: 530px;">
+        <div class="pupil"></div>
+    </div>
+
+    <div class="message">They are watching...</div>
+    </div>
+</body>
+
+</html>
