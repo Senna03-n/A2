@@ -1,11 +1,11 @@
 @font-face {
   font-family: myFont;
-  src: url(assets/blood_crow/bloodcrowsc.ttf);
+  src: url(bloodcrowsc.ttf);
 }
 
 @font-face {
   font-family: mySubFont;
-  src: url(assets/MISFITS_.TTF);
+  src: url(MISFITS_.TTF);
 }
 
 audio {
