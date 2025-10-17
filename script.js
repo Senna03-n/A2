@@ -46,4 +46,3 @@ function hideEyes() {
 document.addEventListener('mousedown', showEyes);
 document.addEventListener('mouseup', hideEyes);   
 document.addEventListener('mouseleave', hideEyes);
-
