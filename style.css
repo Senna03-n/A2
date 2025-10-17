@@ -93,6 +93,7 @@ body {
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
 }
 
+
 .eye.visible {
   opacity: 1;
   transform: scale(1);
@@ -109,16 +110,6 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.big-eye .pupil::after {
-  content: '';
-  position: absolute;
-  top: 25px;
-  left: 25px;
-  width: 13px;
-  height: 13px;
-  background: white;
-  border-radius: 50%;
-}
 
 .big-eye {
   position: absolute;
@@ -142,6 +133,17 @@ body {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.8), inset 0 0 20px rgba(0, 255, 166, 0.2);
 }  
 
+.big-eye .pupil::after {
+  content: '';
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  width: 13px;
+  height: 13px;
+  background: white;
+  border-radius: 50%;
+}
+
 .small-eye1 {
   width: 120px;
   height: 120px;
@@ -151,7 +153,6 @@ body {
   width: 60px;
   height: 60px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.8), inset 0 0 20px rgba(0, 255, 166, 0.2);
-
 }
 
 .small-eye1 .pupil::after {
@@ -183,14 +184,12 @@ body {
 .small-eye3 {
   width: 80px;
   height: 80px;
-  
 }
 
 .small-eye3 .pupil {
   width: 40px;
   height: 40px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.8), inset 0 0 20px rgba(0, 255, 166, 0.2);
-
 }
 
 .small-eye3 .pupil::after {
@@ -199,6 +198,7 @@ body {
   top: 8px;
   left: 9px;
 }
+
 .message {
   position: absolute;
   bottom: 20px;
